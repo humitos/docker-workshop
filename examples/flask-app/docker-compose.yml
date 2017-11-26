@@ -1,0 +1,21 @@
+version: '3'
+services:
+  web:
+    image: python:3.6
+    command: /code/run.sh
+    environment: 
+      APP_SETTINGS: "config.TestingConfig"
+      DATABASE_URL: "postgresql://postgres:secretpassword@database:5432/postgres"
+      FLASK_APP: "app.py"
+      FLASK_DEBUG: 1
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/code
+    links:
+      - database
+
+  database:
+    image: postgres:10.1
+    environment:
+      POSTGRES_PASSWORD: "secretpassword"

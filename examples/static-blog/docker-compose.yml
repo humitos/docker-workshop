@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "8000:80"
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
+      - ./nginx.docker.conf:/etc/nginx/nginx.conf:ro
