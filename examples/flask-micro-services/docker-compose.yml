@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+
+  main:
+    image: python:3.6
+    command: /code/run.sh
+    environment: 
+      FLASK_APP: "main_app.py"
+      FLASK_DEBUG: 1
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/code
+    links:
+      - users
+      - locations
+      - restrictions
+
+  restrictions:
+    image: python:3.6
+    command: /code/run.sh
+    environment: 
+      FLASK_APP: "restrictions_app.py"
+      FLASK_DEBUG: 1
+    volumes:
+      - .:/code
+
+  users:
+    image: python:3.6
+    command: /code/run.sh
+    environment: 
+      FLASK_APP: "users_app.py"
+      FLASK_DEBUG: 1
+    volumes:
+      - .:/code
+
+  locations:
+    image: python:3.6
+    command: /code/run.sh
+    environment: 
+      FLASK_APP: "locations_app.py"
+      FLASK_DEBUG: 1
+    volumes:
+      - .:/code
