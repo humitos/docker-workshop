@@ -24,5 +24,5 @@ Extra
 -----
 
 * `Agenda <https://docs.google.com/document/d/1TkrvVYTHMf2wDRabSot2KQnEYVHLOj4KMS8V5auD0zs/edit#heading=h.apnnu4lkvg5e>`_
-* `Slides: <https://github.com/humitos/docker-workshop/raw/master/talk/docker.odp>`_ 
+* `Slides <https://github.com/humitos/docker-workshop/raw/master/talk/docker.odp>`_ 
 * `Meetup Python Ecuador <https://www.meetup.com/es-ES/python-ecuador/events/245114680/>`_
