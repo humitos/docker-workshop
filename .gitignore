@@ -1,2 +1,3 @@
 *.pyc
 /local-registry/data
+local-server/data
