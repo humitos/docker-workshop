@@ -2,9 +2,11 @@ Setup a Local Network Docker Registry
 -------------------------------------
 
 * Add an `A` in you DNS: https://www.cloudflare.com/a/dns/argentinaenpython.com pointing to your public IP
+
   * docker.argentinaenpython.com
   
 * Open the 443 port in your router to be accessible from outside
+
   * I activated DMZ
 
 * Run `certbot` to create your HTTPS certificate
