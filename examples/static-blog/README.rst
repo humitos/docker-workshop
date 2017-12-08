@@ -5,7 +5,7 @@ Run this command on this folder:
    docker run \ 
      --rm \
      -p 8000:80 \
-     -v .:/usr/share/nginx/html:ro \
+     -v `pwd`:/usr/share/nginx/html:ro \
      nginx
 
 
@@ -16,7 +16,7 @@ Custom example with the Argentina en Python full website content:
    docker run \
      -p 8000:80 \
      -v `pwd`/html:/usr/share/nginx/html:ro \
-     -v `pwd`/nginx.docker.conf:/etc/nginx/nginx.conf:ro \
+     -v `pwd`/nginx.conf:/etc/nginx/nginx.conf:ro \
      nginx
 
 
