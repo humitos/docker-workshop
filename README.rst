@@ -7,6 +7,13 @@ Ecuador Meetup.
 
 .. image:: talk/images/first-slide.png
 
+.. note::
+
+   In case you have any kind of question regarding this mini workshop,
+   feel free to open an issue with your question / problem and I will
+   try to help you when I have some free time
+
+
 References
 ----------
 
