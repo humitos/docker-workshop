@@ -10,3 +10,7 @@ Run this command from this folder:
      -v $XAUTHORITY:/root/.Xauthority \
      --net=host \
      humitos/emacs-x11-alpine
+
+
+* https://hub.docker.com/r/humitos/emacs-x11-alpine/
+* https://github.com/humitos/emacs-x11-alpine/

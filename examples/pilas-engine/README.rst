@@ -10,3 +10,6 @@ Run this command from this folder:
      -v $XAUTHORITY:/root/.Xauthority \
      --net=host \
      humitos/pilas-engine:ubuntu
+
+* https://hub.docker.com/r/humitos/pilas-engine/
+* https://github.com/humitos/pilas-engine/

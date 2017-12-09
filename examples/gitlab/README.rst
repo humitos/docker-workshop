@@ -10,3 +10,5 @@ Run this command from this folder:
      --volume /tmp/gitlab/logs:/var/log/gitlab \
      --volume /tmp/gitlab/data:/var/opt/gitlab \
      gitlab/gitlab-ce:latest
+
+* https://docs.gitlab.com/omnibus/docker/
