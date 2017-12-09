@@ -5,6 +5,7 @@ This repo is to host the slides, examples and simple exercises of a
 talk delivered in Cuenca, Azuay, Ecuador about Docker at the Python
 Ecuador Meetup.
 
+.. image:: talk/images/first-slide.png
 
 References
 ----------
@@ -18,6 +19,12 @@ References
 * https://hub.docker.com/_/nginx/
 * https://hub.docker.com/r/humitos/pilas-engine/
 * https://hub.docker.com/r/humitos/emacs-x11-alpine/
+
+
+Other Tutorials / Articles
+--------------------------
+
+* `Docker Workshop by Guido Vilariño <https://github.com/gvilarino/docker-workshop>`_
 
 
 Extra
