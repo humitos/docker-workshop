@@ -11,7 +11,14 @@ Ecuador Meetup.
 
    In case you have any kind of question regarding this mini workshop,
    feel free to open an issue with your question / problem and I will
-   try to help you when I have some free time
+   try to help you when I have some free time.
+
+
+.. note::
+
+   If you are working on Windows, you will need to run `docker-machine
+   ip` to know the IP of your docker container since `localhost` won't
+   work on Windows.
 
 
 References
