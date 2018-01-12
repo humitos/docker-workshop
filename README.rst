@@ -16,9 +16,8 @@ Ecuador Meetup.
 
 .. note::
 
-   If you are working on Windows, you will need to run `docker-machine
-   ip` to know the IP of your docker container since `localhost` won't
-   work on Windows.
+   If you are working on Windows, you will need to run ``docker-machine ip``
+   to know the IP of your docker container since ``localhost`` won't work on Windows.
 
 
 References
