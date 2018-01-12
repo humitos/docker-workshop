@@ -20,6 +20,9 @@ Ecuador Meetup.
    to know the IP of your docker container since ``localhost`` won't work on Windows.
 
 
+Short link to this repository: http://bit.ly/taller-docker-github
+
+
 References
 ----------
 
